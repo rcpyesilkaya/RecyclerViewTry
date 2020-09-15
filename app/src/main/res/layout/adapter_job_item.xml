@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/colorItem"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/TitleColor"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/txtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salary"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
